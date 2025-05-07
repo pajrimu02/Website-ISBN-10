@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>ISBN-10 Checker</title>
+  </head>
+  <body>
+    <center>
+      <img src="img/LOGO.png" width="230" height="120" />
+    </center>
+    <h2>Validasi dan Analisis ISBN-10</h2>
+    <input type="text" id="isbn" placeholder="Masukkan ISBN (boleh ada x)" />
+    <br /><br />
+
+    <!-- Tombol untuk ISBN-10 -->
+    <button onclick="validateISBN10()">Cek Validitas ISBN-10</button>
+    <button onclick="findCheckDigit10()">Cari Check Digit ISBN-10</button>
+    <button onclick="solveForX10()">Cari Nilai x (dalam ISBN-10 digit)</button>
+
+    <p id="result"></p>
+    <script src="main.js"></script>
+
+    <footer>
+      <p>&copy; 2025 ISBN Checker. Semua Hak Cipta Dilindungi.</p>
+    </footer>
+  </body>
+</html>
